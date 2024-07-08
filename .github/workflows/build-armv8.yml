@@ -273,7 +273,7 @@ jobs:
         name: v${{ env.PACKAGED_OUTPUTDATE }}
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
         tag: ${{ env.OPENWRT_RELEASE_TAG }}
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.TOKEN3 }}
         allowUpdates: true
         replacesArtifacts: true
         body: |
